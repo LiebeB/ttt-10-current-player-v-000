@@ -22,7 +22,7 @@ def current_player(board)
   #   return "X"
   # else return "O"
   # end
-  
+
   return turns_played % 2 == 0 ? "X" : "O"
-  
+
 end
