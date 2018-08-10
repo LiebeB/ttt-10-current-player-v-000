@@ -23,6 +23,8 @@ def current_player(board)
   # else return "O"
   # end
 
-  return turns_played % 2 == 0 ? "X" : "O"
+  # return turns_played % 2 == 0 ? "X" : "O"
 
+  return turns_played.even? ? "X" : "O"
+  
 end
